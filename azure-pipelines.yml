@@ -1,0 +1,12 @@
+trigger:
+- master
+
+pool:
+ vmImages: ubuntu-latest
+
+stages:
+  - stage: First Stage
+    jobs:
+      - job: First Job
+        steps:
+          - script: echo " Welcome to Azure DevOps karthick"
