@@ -5,8 +5,8 @@ pool:
  vmImages: ubuntu-latest
 
 stages:
-  - stage: First Stage
+  - stage: First_Stage
     jobs:
-      - job: First Job
+      - job: First_Job
         steps:
           - script: echo " Welcome to Azure DevOps karthick"
