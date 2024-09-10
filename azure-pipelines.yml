@@ -12,7 +12,7 @@ stages:
           - script: echo " Welcome to Azure DevOps karthick"
             displayName: "Run a one line script"
         
-          - script: 
+          - script: |
              echo " Add other tasks to build, test and deploy the project"
              echo See the youtube video
             displayName: "Run a multi like script"
